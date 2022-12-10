@@ -1,0 +1,55 @@
+body {
+    margin :0;
+    padding: 100px 200px 200px 200px;
+    background: lightgray;
+}
+
+div {
+    margin:5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nav-item {
+    flex: 1;
+}
+
+.navbar {
+    display: flex;
+    background: gray;
+    padding: 15px;
+}
+
+.header {
+    background: gray;
+    padding: 50px;
+}
+
+.introArea {
+    background: gray;
+    padding: 40px;
+}
+
+.dock {
+    display:flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;;
+    column-gap: 2rem;
+    flex-flow: wrap;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+    background: gray;
+}
+.footer {
+    background: gray;
+    padding: 20px;
+}

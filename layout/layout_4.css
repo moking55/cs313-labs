@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background: white;
+}
+
+.nav {
+    height: 80px;
+    background: gray;
+}
+
+.skeleton-text {
+    height: 22px;
+    width: 100%;
+    background: lightgray;
+}
+
+.skeleton-text-bold {
+    background: gray;
+    height: 25px;
+    width: 100%;
+}
+
+.skeleton-image {
+    height: 330px;
+    width: 100%;
+    background: gray;
+}
+.skeleton-image-light {
+    margin-top: 20px;
+    height: 150px;
+    width: 100%;
+    background: silver;
+}
+.skeleton-image-small {
+    width: 100%;
+    height: 100%;
+    background: silver;
+
+}
+
+.container {
+    padding: 50px 180px 50px 180px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+
+.box-border {
+    height: 100%;
+    border: 3px solid silver;
+}
